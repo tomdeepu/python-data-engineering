@@ -7,7 +7,7 @@ monthly_sales = input("Enter Monthly Sales: ")
 # Convert sales from text to number
 monthly_sales = float(monthly_sales)
 
-target_sales = 10% + int(monthly_sales)
+target_sales = int(monthly_sales) + 0.10 * int(monthly_sales)
 
 print("\nRETAIL SALES REPORT")
 print("-------------------")
